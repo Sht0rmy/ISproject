@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.14.19",
+    "@nestjs/cli": "^10.2.1",
+    "@types/react-router-dom": "^5.1.6",
+    "add": "^2.0.6",
+    "global": "^4.4.0"
+  }
+}

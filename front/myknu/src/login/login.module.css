@@ -1,0 +1,66 @@
+
+
+.form{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: grey;
+    z-index: 2;
+}
+.modalRoot *{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.modalHeader{
+
+}
+
+.modalFieldsContainer{
+    display: flex;
+    min-height: 30vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.customInput {
+    width: 80%;
+    margin: 25px 0 0 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;  /* Optional: Add padding for better appearance */
+    border: none;  /* Optional: Remove default input border */
+}
+
+.normalColor{
+    color: black;
+    background-color: white;
+
+}
+.revertColor{
+    color: white;
+    background-color: black;
+}
+.boxDiv {
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px 0 0 0;
+    height: 30px;
+
+}
+.button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+
+

@@ -1,0 +1,90 @@
+
+
+.modal {
+    background: #e4e4e4;
+    max-width: 840px;
+    min-height: 300px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.header {
+    width: 100%;
+    background: black;
+    border-radius: 20px 20px 0 0  ;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.inputWrapper{
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.input{
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    width: 60%;
+}
+.input::placeholder{
+    color: black;
+    font-size: 23px;
+}
+
+.listWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.listWrapper>div{
+    align-self: center;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+.labelsWrapper{
+    width: 83%;
+    text-align: center;
+    position: relative;
+}
+.labels{}
+
+.listWrapper div:nth-child(even) {
+    background-color: black;
+    color: white; /* Adjust text color for better visibility */
+}
+
+.listWrapper div:nth-child(odd) {
+    background-color: white;
+    color: black; /* Adjust text color for better visibility */
+}
+
+.icons{
+    position: absolute;
+    right: -60px;
+}
+.icons >*{
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.addWrapper{
+    left: 10%;
+    position: relative;
+    background-color: transparent;
+    padding: 2px 0;
+}
+
+
+
+

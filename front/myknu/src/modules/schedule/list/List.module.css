@@ -1,0 +1,142 @@
+
+.modal {
+    background: #e4e4e4;
+    max-width: 840px;
+    min-height: 300px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.header {
+    width: 100%;
+    background: black;
+    border-radius: 20px 20px 0 0;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.inputWrapper {
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0px 20px 0px
+}
+
+.input {
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+    width: 60%;
+}
+
+.input::placeholder {
+    color: black;
+    font-size: 23px;
+}
+
+.listWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.listWrapper > div {
+    align-self: center;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+.labelsWrapper {
+    width: 83%;
+    text-align: center;
+    position: relative;
+}
+
+.labels {
+}
+
+.listWrapper div:nth-child(even) {
+    background-color: black;
+    color: white; /* Adjust text color for better visibility */
+}
+
+.listWrapper div:nth-child(odd) {
+    background-color: white;
+    color: black; /* Adjust text color for better visibility */
+}
+
+.icons {
+    position: absolute;
+    right: -60px;
+}
+
+.icons > * {
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.addWrapper {
+    left: 10%;
+    position: relative;
+    background-color: transparent;
+    padding: 2px 0;
+}
+
+.creatingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-weight: bolder;*/
+}
+
+.creatingModal {
+    background-color: #e4e4e4;
+    width: 60%;
+    margin: 5%;
+    border-radius: 20px;
+    padding: 10px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: baseline;*/
+}
+
+.creatingModalItem {
+    background-color: white;
+    display: flex;
+    margin: 1px;
+}
+.creatingModalItem >*{
+    width: 50%;
+}
+
+.creatingInput{
+    padding: 2px;
+}
+
+.postContainer{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.postContainer >div{
+    background-color:  greenyellow;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: black;
+}
+.item{
+    padding: 10px;
+}
+
+
+
